@@ -1,0 +1,55 @@
+.create-modal-form {
+  font-family: "DM Sans";
+  padding: 0.5rem 1rem;
+  max-width: 100%;
+  max-height: 80vh !important;
+  overflow-y: scroll;
+}
+
+.split {
+  display: flex;
+  column-gap: 1rem;
+}
+.create-modal-form label {
+  display: block;
+  margin-top: 1rem;
+  color: #443c68;
+}
+
+/* .create-modal-form > div:first-of-type {
+    width: 100% !important;
+  } */
+
+.inputs {
+  width: 100%;
+}
+
+.inputs > div {
+  width: 100% !important;
+}
+
+.submit-buttons {
+  margin-top: 1rem;
+}
+
+.radio {
+  margin-top: 0.5rem;
+}
+
+.radio label {
+  display: inline;
+}
+
+.radio input {
+  margin: 5px auto;
+}
+
+.radio input[type="radio"] {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .split {
+    flex-direction: column;
+  }
+}

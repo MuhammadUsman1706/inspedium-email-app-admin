@@ -1,0 +1,29 @@
+.invoices {
+  border: 1px solid rgba(68, 60, 104, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+  overflow-x: scroll;
+  box-sizing: border-box;
+}
+
+.invoices p {
+  font-family: "DM Sans";
+  color: #1c004e;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+
+.invoices-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.invoices thead tr {
+  background: rgba(68, 60, 104, 0.07);
+}
+
+.invoices-table tr th,
+.invoices-table tr td {
+  padding: 0.7rem 1rem;
+}

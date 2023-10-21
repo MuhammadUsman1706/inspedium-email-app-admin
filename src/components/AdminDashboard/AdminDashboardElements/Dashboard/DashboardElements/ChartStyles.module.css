@@ -1,0 +1,14 @@
+.chart-parent {
+  border: 1px solid rgba(68, 60, 104, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chart-parent p {
+  font-family: "DM Sans";
+  color: #1c004e;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}

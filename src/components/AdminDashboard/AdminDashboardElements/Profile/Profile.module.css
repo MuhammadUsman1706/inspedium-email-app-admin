@@ -1,0 +1,101 @@
+.profile {
+  display: flex;
+  font-family: "DM Sans";
+  column-gap: 3rem;
+  max-width: 95%;
+  /* width: 100%; */
+}
+
+.profile h3 {
+  color: #393053;
+  margin-bottom: 0;
+}
+.profile hr {
+  margin-top: 0.5rem;
+}
+
+.profile label {
+  display: block;
+  font-family: "DM Sans";
+  color: #393053;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.info {
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid rgba(68, 60, 104, 0.3);
+  border-radius: 8px;
+  width: 100%;
+  /* flex-grow: 0.5; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  box-sizing: border-box;
+}
+
+.info-form {
+  display: flex;
+  column-gap: 1rem;
+  width: 100%;
+}
+
+.info-form > div {
+  width: 100%;
+}
+
+.info-form > div > div {
+  width: 100%;
+}
+
+.password {
+  border: 1px solid #52bd944d;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  width: 50%;
+  box-sizing: border-box;
+  /* flex-grow: 0.33; */
+}
+
+.password > div {
+  width: 100%;
+}
+
+.password > div > div {
+  width: 100%;
+}
+
+.profile button[type="submit"] {
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1025px) {
+  .profile {
+    column-gap: 1rem;
+  }
+}
+
+/* @media screen and (max-width: 800px) {
+} */
+
+@media screen and (max-width: 900px) {
+  .profile {
+    width: 95%;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .password {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .info-form {
+    flex-direction: column;
+  }
+}

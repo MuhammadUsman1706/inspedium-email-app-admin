@@ -1,0 +1,92 @@
+.invoices {
+  font-family: "DM Sans";
+  max-width: 95%;
+}
+
+.invoices h2 {
+  color: #00505d;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(82, 189, 148, 0.3);
+  border-radius: 8px;
+}
+
+.summary-details p {
+  color: #7d7d7d;
+  margin: 0.5rem 0;
+}
+
+.summary-details p span {
+  font-weight: bold;
+  color: black;
+}
+
+.domain-table {
+  margin-top: 1rem;
+  border: 1px solid rgba(82, 189, 148, 0.3);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  overflow-x: scroll;
+}
+
+.domain-table table {
+  width: 100%;
+  font-family: "DM Sans";
+  border-collapse: collapse;
+
+  /* table-layout: fixed; */
+  /* border-spacing: 1rem; */
+}
+
+.domain-table tr th,
+.domain-table tr td {
+  padding: 1rem;
+  text-align: center;
+}
+
+.domain-table thead {
+  background: rgba(68, 60, 104, 0.07);
+  color: #1c004e;
+}
+
+.table-text {
+  color: #7d7d7d;
+}
+
+.icons {
+  color: #393053;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .invoices {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .top-bar {
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    row-gap: 1rem;
+  }
+
+  .top-bar > * {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .domain-table {
+    overflow-x: scroll;
+  }
+}

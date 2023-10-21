@@ -1,0 +1,39 @@
+.dashboard {
+  font-family: "DM Sans";
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  border: 1px solid rgba(68, 60, 104, 0.3);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  height: 100%;
+  max-width: 95%;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  column-gap: 3%;
+}
+
+@media screen and (max-width: 1024px) {
+  .row {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .dashboard {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .dashboard {
+    padding: 1rem;
+  }
+}

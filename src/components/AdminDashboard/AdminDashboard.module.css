@@ -1,0 +1,28 @@
+.dashboard {
+  display: flex;
+  /* margin-top: 4rem; */
+  column-gap: 4rem;
+  width: 100%;
+  /* background-color: #f7fffc; */
+  /* justify-content: stretch; */
+}
+
+.dashboard-display {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 100%;
+  /* width: fit-content; */
+}
+
+@media screen and (max-width: 800px) {
+  .dashboard-display {
+    align-items: center;
+  }
+}
+/* 
+@media screen and (max-width: 500px) {
+  .dashboard-display {
+    align-items: center;
+  }
+} */
